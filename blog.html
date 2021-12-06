@@ -5,12 +5,17 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-	<div class="nav-bar">
+	<div class="nav-bar-header">
 		<h2 class="h2-title">software engineering blog</h2>
 		<p></p>
 	</div>
-	<div class="body-padding">
-		<p class="p-center"><a class="a-look" href="smart-contracts.html">smart contracts</a></p>
+	<div class="nav-bar">
+		<ul>
+			<li><a class="a-look" href="index.html">home</a></li>
+			<li><a class="a-look" href="smart-contracts.html">smart contracts</a></li>
+			<li><a class="a-look" href="blog.html">blog</a></li>
+		</ul>
+	</div>
 	</div>
 </body>
 </html>
@@ -45,12 +50,20 @@
 		color: Violet;
 	}
 
-	.nav-bar{
-		background-color: SlateBlue;
+	.nav-bar-header{
+		background-color: #1f1f2e/*SlateBlue*/;
 		overflow: hidden;
 		margin: 0px;
-		border-bottom: 0.5px solid LightSlateGray;
+		border-bottom: 0.5px solid #676798/*LightSlateGray*/;
 	}
+	
+	.nav-bar{
+		background-color: #676798;
+		overflow: hidden;
+		display: block;
+		padding: 0%;
+		text-decoration: none;
+	} 
 
 	body{
 		margin: 0%;
@@ -59,6 +72,36 @@
 	.body-padding{
 		margin-left: 10%;
 		margin-right: 10%;
+	}
+	
+	
+	/*list heading nav bar*/ 
+	ul {
+  		list-style-type: none;
+  		margin: 0;
+  		padding: 0;
+  		overflow: hidden;
+  		background-color: #676798;
+	}
+
+	li {
+  		float: left;
+	}
+
+	li a {
+  		display: block;
+ 		color: white;
+  		text-align: center;
+  		padding: 14px 16px;
+  		text-decoration: none;
+	}
+	
+	li:active{
+		 background-color: #1f1f2e;
+	}
+	
+	li:hover{
+		background-color: #1f1f2e;
 	}
 	
 </style>

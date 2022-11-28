@@ -1,0 +1,82 @@
+.p-center{
+		text-align: center;
+	}
+
+	.h2-title{
+		text-align: center;
+		color: #e6e6e6;
+		font-family: "Retina", Arial, Helvetica, sans-serif;
+	}
+	
+	a{
+		font-family: "Retina", Arial, Helvetica, sans-serif;
+	}
+
+	a:link{
+		text-decoration: none;
+		color: Violet;
+	}
+	
+	a:visited{
+		text-decoration: none;
+		color: Violet;
+	}
+	
+	a:active{
+		text-decoration: none;
+		color: Violet;
+	}
+
+	.nav-bar-header{
+		background-color: #1f1f2e/*SlateBlue*/;
+		overflow: hidden;
+		margin: 0px;
+		border-bottom: 0.5px solid #676798/*LightSlateGray*/;
+	}
+	
+	.nav-bar{
+		background-color: #676798;
+		overflow: hidden;
+		display: block;
+		padding: 0%;
+		text-decoration: none;
+	} 
+
+	body{
+		margin: 0%;
+	}
+	
+	.body-padding{
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	
+	
+	/*list heading nav bar*/ 
+	ul {
+  		list-style-type: none;
+  		margin: 0;
+  		padding: 0;
+  		overflow: hidden;
+  		background-color: #676798;
+	}
+
+	li {
+  		float: left;
+	}
+
+	li a {
+  		display: block;
+ 		color: Violet;
+  		text-align: center;
+  		padding: 14px 16px;
+  		text-decoration: none;
+	}
+	
+	li:active{
+		 background-color: #1f1f2e;
+	}
+	
+	li:hover{
+		background-color: #1f1f2e;
+	}

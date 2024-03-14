@@ -1,1 +1,1 @@
-This is a place for me to put some of my learnings as I go through different technologies. It is very poor HTML, and I it is a very poor looking site, however, I hope the content that I put on here is relevant and useful. 
+This is a place for me to put some of my learnings as I go through different technologies. It is very poor HTML, while it is a very poor looking site, however, I hope the content that I put on here is relevant and useful. I am certainly not a front end developer and as of right now, I enjoy focusing on backend development. 

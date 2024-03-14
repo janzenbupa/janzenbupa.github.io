@@ -109,7 +109,7 @@
             </code>
         </div>
 
-        <p>Now we need to add a "/users" endpoint, which is what we defined in our claims. 
+        <p style="margin-left:20px;margin-right:20px;">Now we need to add a "/users" endpoint, which is what we defined in our claims. 
             This endpoint will need to be authorized for our authenticated user, but since we already added the endpoint to our claims, we just need to add middleware to handle that authorization.
             We simply defined a []string in our code to generate a token. When generating a token we set our "Endpoints" claim to a slice that we hardcoded, in reality these would come a database configuration or somewhere other than a slice in code.
         </p>

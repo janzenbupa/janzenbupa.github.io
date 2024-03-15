@@ -10,11 +10,28 @@
 		<p></p>
 	</div>
 	<div class="nav-bar">
-		<ul>
-			<li><a class="a-look" href="index.html">home</a></li>
-			<li><a class="a-look" href="dynamodb-with-go.html">DynamoDb with Golang</a></li>
+		<ul class="ul-header">
+			<li class="li-header"><a class="a-look" href="index.html">home</a></li>
+			<li class="li-header"><a class="a-look" href="blog.html">blog</a></li>
 		</ul>
 	</div>
+	</div>
+
+	<div class="container">
+		<ul class="question-list">
+			<li class="question-item">
+				<a href="dynamodb-with-go.html">
+				<h2>DynamoDb with Golang</h2>
+				<p>Using Go to connect to DynamoDb</p>
+				</a>
+			</li>
+			<li class="question-item">
+				<a href="jwt-with-go.html">
+				<h2>JWT with Golang</h2>
+				<p>Generating and using JWTs with Go</p>
+				</a>
+			</li>
+		</ul>
 	</div>
 </body>
 </html>
@@ -75,7 +92,7 @@
 	
 	
 	/*list heading nav bar*/ 
-	ul {
+	.ul-header {
   		list-style-type: none;
   		margin: 0;
   		padding: 0;
@@ -83,7 +100,7 @@
   		background-color: #676798;
 	}
 
-	li {
+	.li-header {
   		float: left;
 	}
 
@@ -103,5 +120,47 @@
 		background-color: #1f1f2e;
 	}
 	
+
+
+
+	.question-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.question-list .question-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 2px;
+    margin-bottom: 2px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.question-list .question-item {
+    display: block;
+}
+
+.question-list .question-item h2 {
+    margin-top: 0;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1px;
+}
+
+.question-list .question-item a {
+    text-decoration: none; /* Remove underline from anchor tag */
+    color: #1f1f2e;
+    display: block;
+}
+
+.question-list .question-item a:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
 </style>
 	

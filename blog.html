@@ -1,107 +1,121 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>janzenbupa.github.io</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>software engineering blog</title>
+    <style>
+        body {
+            font-family: "Retina", Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8; /* Light gray background */
+        }
+
+        a {
+            color: Violet;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 10px;
+        }
+
+        .nav-bar-header {
+            background-color: #1f1f2e;
+            color: #e6e6e6;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .nav-bar-header h2 {
+            margin: 0;
+        }
+
+        .nav-bar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #1f1f2e;
+            text-align: center;
+        }
+
+        .nav-bar li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        .nav-bar li a {
+            display: block;
+            color: #fff;
+            padding: 10px 15px;
+        }
+
+        .nav-bar li a:hover {
+            background-color: #735581;
+        }
+
+        .question-list {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 20px;
+        }
+
+        .question-item {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .question-item h2 {
+            margin: 0 0 10px 0;
+            font-size: 24px;
+            color: #1f1f2e;
+        }
+
+        .question-item p {
+            margin: 0;
+            color: #555;
+        }
+    </style>
 </head>
 <body>
-	<div class="nav-bar-header">
-		<h2 class="h2-title">software engineering blog</h2>
-		<p></p>
-	</div>
-	<div class="nav-bar">
-		<ul>
-			<li><a class="a-look" href="index.html">home</a></li>
-			<li><a class="a-look" href="dynamodb-with-go.html">DynamoDb with Golang</a></li>
-		</ul>
-	</div>
-	</div>
+    <div class="nav-bar-header">
+        <h2>software engineering blog</h2>
+    </div>
+
+    <div class="nav-bar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <ul class="question-list">
+            <li class="question-item">
+                <a href="dynamodb-with-go.html">
+                    <h2>DynamoDB with Golang</h2>
+                    <p>Using Go to connect to DynamoDB</p>
+                </a>
+            </li>
+            <li class="question-item">
+                <a href="jwt-with-go.html">
+                    <h2>JWT with Golang</h2>
+                    <p>Generating and using JWTs with Go</p>
+                </a>
+            </li>
+        </ul>
+    </div>
 </body>
 </html>
-
-<style>
-	.p-center{
-		text-align: center;
-	}
-
-	.h2-title{
-		text-align: center;
-		color: #e6e6e6;
-		font-family: "Retina", Arial, Helvetica, sans-serif;
-	}
-	
-	a{
-		font-family: "Retina", Arial, Helvetica, sans-serif;
-	}
-
-	a:link{
-		text-decoration: none;
-		color: Violet;
-	}
-	
-	a:visited{
-		text-decoration: none;
-		color: Violet;
-	}
-	
-	a:active{
-		text-decoration: none;
-		color: Violet;
-	}
-
-	.nav-bar-header{
-		background-color: #1f1f2e/*SlateBlue*/;
-		overflow: hidden;
-		margin: 0px;
-		border-bottom: 0.5px solid #676798/*LightSlateGray*/;
-	}
-	
-	.nav-bar{
-		background-color: #676798;
-		overflow: hidden;
-		display: block;
-		padding: 0%;
-		text-decoration: none;
-	} 
-
-	body{
-		margin: 0%;
-	}
-	
-	.body-padding{
-		margin-left: 10%;
-		margin-right: 10%;
-	}
-	
-	
-	/*list heading nav bar*/ 
-	ul {
-  		list-style-type: none;
-  		margin: 0;
-  		padding: 0;
-  		overflow: hidden;
-  		background-color: #676798;
-	}
-
-	li {
-  		float: left;
-	}
-
-	li a {
-  		display: block;
- 		color: Violet;
-  		text-align: center;
-  		padding: 14px 16px;
-  		text-decoration: none;
-	}
-	
-	li:active{
-		 background-color: #1f1f2e;
-	}
-	
-	li:hover{
-		background-color: #1f1f2e;
-	}
-	
-</style>
-	

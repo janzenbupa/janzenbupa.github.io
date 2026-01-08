@@ -1,1 +1,2 @@
-This is a place for me to put some of my learnings as I go through different technologies. It is very poor HTML, while it is a very poor looking site, however, I hope the content that I put on here is relevant and useful. I am certainly not a front end developer and as of right now, I enjoy focusing on backend development. 
+
+Hi, my name is Janzen Houchen Wilder. I am a software engineer who enjoys working on backend technologies and managing data (hence the poor html). This little page is a collection of different technologies and tools that I learned when messing around in golang. 
